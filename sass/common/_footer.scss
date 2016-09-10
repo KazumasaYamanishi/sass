@@ -1,7 +1,8 @@
 footer {
-    background-color: $baseColorMain;
+    background-color: lighten($baseColorBlack, 25%);
     .copy {
         margin-bottom: 0;
+        padding: 1.2em 0;
         text-align: center;
         color: #fff;
         font-size: floor($baseFontSize * 0.70);
