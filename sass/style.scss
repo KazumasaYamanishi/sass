@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+
+@import "conf/settings";
+@import "conf/functions";
+@import "conf/mixins";
+
+
+
+#main {
+	width: 90%;
+	background: url($imgDir + "bg.png");
+	p {
+		color: lighten($brandColor, 30%);
+		font-size: $baseFontSize;
+		.sub {
+			font-size: $baseFontSize - 2;
+		}
+		a {
+			text-decoration: none;
+			&:hover {
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+.grid {
+	float: left;
+	width: getColumnWidth($totalWidth, $columnCount);
+}
+
+.label {
+	font-size: 12px;
+	@include round();
+}
+.label2 {
+	font-size: 12px;
+	@include round(10px);
+}
+
+// @extend（継承）
+
+.msg {
+	padding: 2px 4px;
+	font-size: 12px;
+	font-weight: 600;
+	color: white;
+}
+
+.errorMsg {
+	@extend .msg;
+	background: red;
+}
+
+.warningMsg {
+	@extend .msg;
+	background: orange;
+}

@@ -1,0 +1,49 @@
+#main {
+  width: 90%;
+  background: url("../img/bg.png");
+}
+#main p {
+  color: rgba(255, 153, 153, 0.8);
+  font-size: 14px;
+}
+#main p .sub {
+  font-size: 12px;
+}
+#main p a {
+  text-decoration: none;
+}
+#main p a:hover {
+  font-weight: 600;
+}
+
+.grid {
+  float: left;
+  width: 208px;
+}
+
+.label {
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.label2 {
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.msg, .errorMsg, .warningMsg {
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.errorMsg {
+  background: red;
+}
+
+.warningMsg {
+  background: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
