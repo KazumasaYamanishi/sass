@@ -1,0 +1,76 @@
+.btn-ghost {
+    position: relative;
+    display: inline-block;
+    // padding: 10px 4em;
+    background: transparent;
+    // transition: .3s;
+    overflow: hidden;
+    &:after {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    z-index: 2;
+	    display: block;
+	    content: '';
+	    width: 0;
+	    height: 0;
+	    background-color: rgba($baseBgColor, .3);
+	    border-radius: 50%;
+	    -webkit-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+	    opacity: 0;
+	}
+	&.btn-default {
+	    color: lighten($baseFontColor, 20%);
+	    &:hover {
+	    	color: #fff;
+	    }
+	}
+
+	&.btn-primary {
+	    color: $baseColorMain;
+	    &:hover {
+	    	color: #fff;
+	    }
+	}
+
+	&.btn-success {
+	    color: $baseColorSub;
+	    &:hover {
+	    	color: #fff;
+	    }
+	}
+
+	&.btn-warning {
+	    color: $baseColorAccent;
+	    &:hover {
+	    	color: #fff;
+	    }
+	}
+
+	&.btn-danger {
+	    color: $baseColorDanger;
+	    &:hover {
+	    	color: #fff;
+	    }
+	}
+
+	&.btn-white {
+	    color: #fff;
+	    border: 1px solid #fff;
+	    &:hover {
+	    	color: $baseColorMain;
+    		background-color: #fff;
+	    }
+	}
+
+	&.btn-gold {
+	    color: #d1a262;
+	    border: 1px solid #d1a262;
+	    &:hover {
+	    	color: #fff;
+    		background-color: #d1a262;
+	    }
+	}
+}
+

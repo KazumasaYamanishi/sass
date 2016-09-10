@@ -1,5 +1,51 @@
-$baseFontSize: 14px;
-$imgDir: "../img/";
-$brandColor: rgba(255, 0, 0, .8);
+
+
+
+$baseFamily: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+$baseFontSize: 16px;
+$baseFontColor: #424242;
+$baseLineHeight: 1.64;
+
+
+
+$baseColor: #fbfbfc;
+$baseColorMain: #004679;
+$baseColorSub: #8eb4d9;
+$baseColorAccent: #a44682;
+$baseColorDanger: #c93a40;
+
+
+
+$baseBgColor: #fbfbfc;
+$neonColor: #ffff66;
+
+
+
+$baseBorder: 1px solid $baseColorMain;
+
+
+
+$baseMargin: 32px;
+$baseMarginHf: floor($baseMargin / 2);
+$baseMarginDb: floor($baseMargin * 2);
+$basePhone: 44px;
+
+
+
+$baseRadius: 2px;
+
+
+
+$containerWidth: 1080px;
+$breakSm: 768px;
+$breakMd: 992px;
+$breakLg: 1200px;
+
+
+
 $totalWidth: 1080px;
 $columnCount: 5;
+
+
+
+$imgDir: "../img/";

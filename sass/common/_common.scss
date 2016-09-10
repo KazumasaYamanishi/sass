@@ -1,0 +1,69 @@
+#wrapper {
+    overflow: hidden;
+}
+
+.box-80per {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 80%;
+}
+
+.small,
+.help-block {
+    color: lighten($baseFontColor, 20%);
+    font-size: floor($baseFontSize * .85);
+}
+
+.shadow-primary {
+    box-shadow: 4px 4px rgba($baseColorMain, 30%);
+}
+
+@media (min-width: $breakSm) {
+    .shadow-primary {
+        box-shadow: 14px 12px 0 -4px rgba($baseColorMain, 30%);
+    }
+}
+
+.lr-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hl-center {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.lr-hl-center-parent {
+    position: relative;
+}
+
+.lr-hl-center-parent .child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+br.pc-break {
+    display: none;
+}
+
+@media (min-width: $breakSm) {
+    br.pc-break {
+        display: block;
+    }
+}
+
+.kome {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+.neon {
+    background: linear-gradient(transparent 40%, $neonColor 40%);
+}

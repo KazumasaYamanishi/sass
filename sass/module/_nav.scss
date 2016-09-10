@@ -1,0 +1,103 @@
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+    & > li > a {
+        background-color: $baseColorMain;
+        color: #fff;
+    }
+    &:hover,
+    &:focus {
+        background-color: lighten($baseColorMain, 20%);
+    }
+    & > li.current-menu-item > a {
+        background-color: darken($baseColorMain, 20%);
+    }
+}
+
+.navbar-toggle .icon-bar {
+    background-color: $baseColorMain;
+    transition: all .4s;
+    &:nth-of-type(2) {
+        -webkit-transform: translateY(20px) rotate(-45deg);
+        transform: translateY(6px) rotate(-45deg);
+    }
+    &:nth-of-type(3) {
+        opacity: 0;
+    }
+    &:nth-of-type(4) {
+        -webkit-transform: translateY(-20px) rotate(45deg);
+        transform: translateY(-6px) rotate(45deg);
+    }
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-of-type(2) {
+        -webkit-transform: translateY(0) rotate(0deg);
+        transform: translateY(0) rotate(0deg);
+    }
+
+.navbar-toggle.collapsed .icon-bar:nth-of-type(3) {
+        opacity: 1;
+        -webkit-transform: translateY(0) rotate(0deg);
+        transform: translateY(0) rotate(0deg);
+    }
+
+.navbar-toggle.collapsed .icon-bar:nth-of-type(4) {
+        -webkit-transform: translateY(0) rotate(0deg);
+        transform: translateY(0) rotate(0deg);
+    }
+
+.navbar-brand {
+    background: url(../img/logo.png) 4px 4px no-repeat;
+    text-indent: -9999em;
+    width: 194px;
+    background-size: contain;
+}
+
+.nav-phone {
+    padding: 1px 22px 0;
+    float: right;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+@media (min-width: $breakSm) {
+    .navbar {
+        border-top: none;
+    }
+    .navbar-collapse {
+        padding: 0;
+    }
+    .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+        li {
+            display: table-cell;
+            float: none;
+            a {
+                position: relative;
+                text-align: center;
+                background-color: transparent;
+                color: $baseColorMain;
+                &:hover,
+                &:focus {
+                    background-color: transparent;
+                }
+                &:hover::after,
+                &:focus::after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    content: '';
+                    width: 100%;
+                    height: 3px;
+                    background-color: #f7b200;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

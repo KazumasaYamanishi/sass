@@ -1,0 +1,26 @@
+.main {
+    margin-bottom: 70px;
+    & > .inner > article:not(:last-child) {
+        margin-bottom: 70px;
+    }
+}
+
+@media (min-width: $breakSm) {
+    .main {
+        width: floor($containerWidth * 0.70833333333);
+        float: right;
+        & > .inner {
+            padding-top: 48px;
+            padding-right: 48px;
+            padding-left: 48px;
+            padding-bottom: 0;
+            border: 2px #f5f5f5 solid;
+            & > article {
+                margin-bottom: 96px;
+                .contents > p:not(:last-child) {
+                    margin-bottom: 2em;
+                }
+            }
+        }
+    }
+}
