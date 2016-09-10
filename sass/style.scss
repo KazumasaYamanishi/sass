@@ -8,11 +8,13 @@
 
 
 
+
+
 #main {
 	width: 90%;
 	background: url($imgDir + "bg.png");
 	p {
-		color: lighten($brandColor, 30%);
+		color: lighten($brandColor, 20%);
 		font-size: $baseFontSize;
 		.sub {
 			font-size: $baseFontSize - 2;

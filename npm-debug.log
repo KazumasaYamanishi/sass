@@ -1,0 +1,440 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'gulp',
+1 verbose cli   'gulp-sass',
+1 verbose cli   'gulp-postcss',
+1 verbose cli   'postcss-cssnext' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'gulp', null ]
+6 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp',
+7 verbose parsed url   path: 'gulp',
+7 verbose parsed url   href: 'gulp' }
+8 verbose cache add [ 'gulp-sass', null ]
+9 verbose cache add name=undefined spec="gulp-sass" args=["gulp-sass",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'gulp-sass',
+10 verbose parsed url   path: 'gulp-sass',
+10 verbose parsed url   href: 'gulp-sass' }
+11 verbose cache add [ 'gulp-postcss', null ]
+12 verbose cache add name=undefined spec="gulp-postcss" args=["gulp-postcss",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'gulp-postcss',
+13 verbose parsed url   path: 'gulp-postcss',
+13 verbose parsed url   href: 'gulp-postcss' }
+14 verbose cache add [ 'postcss-cssnext', null ]
+15 verbose cache add name=undefined spec="postcss-cssnext" args=["postcss-cssnext",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'postcss-cssnext',
+16 verbose parsed url   path: 'postcss-cssnext',
+16 verbose parsed url   href: 'postcss-cssnext' }
+17 silly lockFile 9750c68d-gulp gulp
+18 verbose lock gulp C:\Users\user\AppData\Roaming\npm-cache\9750c68d-gulp.lock
+19 silly lockFile 993318e6-gulp-sass gulp-sass
+20 verbose lock gulp-sass C:\Users\user\AppData\Roaming\npm-cache\993318e6-gulp-sass.lock
+21 silly lockFile 29da0723-gulp-postcss gulp-postcss
+22 verbose lock gulp-postcss C:\Users\user\AppData\Roaming\npm-cache\29da0723-gulp-postcss.lock
+23 silly lockFile 0a2bad7d-postcss-cssnext postcss-cssnext
+24 verbose lock postcss-cssnext C:\Users\user\AppData\Roaming\npm-cache\0a2bad7d-postcss-cssnext.lock
+25 silly lockFile 29da0723-gulp-postcss gulp-postcss
+26 silly lockFile 29da0723-gulp-postcss gulp-postcss
+27 silly lockFile 993318e6-gulp-sass gulp-sass
+28 silly lockFile 993318e6-gulp-sass gulp-sass
+29 silly lockFile 9750c68d-gulp gulp
+30 silly lockFile 9750c68d-gulp gulp
+31 silly lockFile 0a2bad7d-postcss-cssnext postcss-cssnext
+32 silly lockFile 0a2bad7d-postcss-cssnext postcss-cssnext
+33 verbose addNamed [ 'gulp-sass', '' ]
+34 verbose addNamed [ null, '*' ]
+35 silly lockFile 59b5e58d-gulp-sass gulp-sass@
+36 verbose lock gulp-sass@ C:\Users\user\AppData\Roaming\npm-cache\59b5e58d-gulp-sass.lock
+37 verbose addNamed [ 'gulp-postcss', '' ]
+38 verbose addNamed [ null, '*' ]
+39 silly lockFile ec17020b-gulp-postcss gulp-postcss@
+40 verbose lock gulp-postcss@ C:\Users\user\AppData\Roaming\npm-cache\ec17020b-gulp-postcss.lock
+41 verbose addNamed [ 'gulp', '' ]
+42 verbose addNamed [ null, '*' ]
+43 silly lockFile 72f4391e-gulp gulp@
+44 verbose lock gulp@ C:\Users\user\AppData\Roaming\npm-cache\72f4391e-gulp.lock
+45 verbose addNamed [ 'postcss-cssnext', '' ]
+46 verbose addNamed [ null, '*' ]
+47 silly lockFile a1fa774a-postcss-cssnext postcss-cssnext@
+48 verbose lock postcss-cssnext@ C:\Users\user\AppData\Roaming\npm-cache\a1fa774a-postcss-cssnext.lock
+49 silly addNameRange { name: 'gulp-sass', range: '*', hasData: false }
+50 silly addNameRange { name: 'gulp-postcss', range: '*', hasData: false }
+51 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+52 silly addNameRange { name: 'postcss-cssnext', range: '*', hasData: false }
+53 verbose request where is /gulp-postcss
+54 verbose request registry https://registry.npmjs.org/
+55 verbose request id 8ec2e66905ebb9b6
+56 verbose url raw /gulp-postcss
+57 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-postcss' ]
+58 verbose url resolved https://registry.npmjs.org/gulp-postcss
+59 verbose request where is https://registry.npmjs.org/gulp-postcss
+60 info trying registry request attempt 1 at 11:54:35
+61 http GET https://registry.npmjs.org/gulp-postcss
+62 verbose request where is /postcss-cssnext
+63 verbose request registry https://registry.npmjs.org/
+64 verbose url raw /postcss-cssnext
+65 verbose url resolving [ 'https://registry.npmjs.org/', './postcss-cssnext' ]
+66 verbose url resolved https://registry.npmjs.org/postcss-cssnext
+67 verbose request where is https://registry.npmjs.org/postcss-cssnext
+68 info trying registry request attempt 1 at 11:54:35
+69 http GET https://registry.npmjs.org/postcss-cssnext
+70 verbose request where is /gulp-sass
+71 verbose request registry https://registry.npmjs.org/
+72 verbose url raw /gulp-sass
+73 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sass' ]
+74 verbose url resolved https://registry.npmjs.org/gulp-sass
+75 verbose request where is https://registry.npmjs.org/gulp-sass
+76 info trying registry request attempt 1 at 11:54:35
+77 verbose etag "6MJI7EEUOX8QP9ZDBG7XHI54Q"
+78 http GET https://registry.npmjs.org/gulp-sass
+79 verbose request where is /gulp
+80 verbose request registry https://registry.npmjs.org/
+81 verbose url raw /gulp
+82 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+83 verbose url resolved https://registry.npmjs.org/gulp
+84 verbose request where is https://registry.npmjs.org/gulp
+85 info trying registry request attempt 1 at 11:54:35
+86 verbose etag "4X7JEY4DE9X9YF94KM3IRBN03"
+87 http GET https://registry.npmjs.org/gulp
+88 http 200 https://registry.npmjs.org/gulp-sass
+89 silly registry.get cb [ 200,
+89 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+89 silly registry.get     etag: '"ATERJ9OEIVOTO5G6AR2CNBVT8"',
+89 silly registry.get     'content-type': 'application/json',
+89 silly registry.get     'content-encoding': 'gzip',
+89 silly registry.get     'cache-control': 'max-age=300',
+89 silly registry.get     'content-length': '9835',
+89 silly registry.get     'accept-ranges': 'bytes',
+89 silly registry.get     date: 'Sat, 10 Sep 2016 02:54:35 GMT',
+89 silly registry.get     via: '1.1 varnish',
+89 silly registry.get     age: '71',
+89 silly registry.get     connection: 'keep-alive',
+89 silly registry.get     'x-served-by': 'cache-itm7422-ITM',
+89 silly registry.get     'x-cache': 'HIT',
+89 silly registry.get     'x-cache-hits': '4',
+89 silly registry.get     'x-timer': 'S1473476075.548063,VS0,VE0',
+89 silly registry.get     vary: 'Accept-Encoding' } ]
+90 silly addNameRange number 2 { name: 'gulp-sass', range: '*', hasData: true }
+91 silly addNameRange versions [ 'gulp-sass',
+91 silly addNameRange   [ '0.1.0',
+91 silly addNameRange     '0.2.1',
+91 silly addNameRange     '0.2.2',
+91 silly addNameRange     '0.2.3',
+91 silly addNameRange     '0.3.0',
+91 silly addNameRange     '0.4.0',
+91 silly addNameRange     '0.4.1',
+91 silly addNameRange     '0.5.0',
+91 silly addNameRange     '0.5.1',
+91 silly addNameRange     '0.5.2',
+91 silly addNameRange     '0.6.0',
+91 silly addNameRange     '0.7.0',
+91 silly addNameRange     '0.7.1',
+91 silly addNameRange     '0.7.2',
+91 silly addNameRange     '0.7.3',
+91 silly addNameRange     '1.0.0',
+91 silly addNameRange     '1.1.0',
+91 silly addNameRange     '1.2.0',
+91 silly addNameRange     '1.2.1',
+91 silly addNameRange     '1.2.2',
+91 silly addNameRange     '1.2.3',
+91 silly addNameRange     '1.2.4',
+91 silly addNameRange     '1.3.0',
+91 silly addNameRange     '1.3.1',
+91 silly addNameRange     '1.3.2',
+91 silly addNameRange     '1.3.3',
+91 silly addNameRange     '2.0.0-alpha.1',
+91 silly addNameRange     '2.0.0',
+91 silly addNameRange     '2.0.2',
+91 silly addNameRange     '2.0.3',
+91 silly addNameRange     '2.0.4',
+91 silly addNameRange     '2.1.0-beta',
+91 silly addNameRange     '2.1.0',
+91 silly addNameRange     '2.1.1',
+91 silly addNameRange     '2.2.0',
+91 silly addNameRange     '2.3.0-beta.1',
+91 silly addNameRange     '2.3.0',
+91 silly addNameRange     '2.3.1',
+91 silly addNameRange     '2.3.2' ] ]
+92 verbose addNamed [ 'gulp-sass', '2.3.2' ]
+93 verbose addNamed [ '2.3.2', '2.3.2' ]
+94 silly lockFile 0aa5b949-gulp-sass-2-3-2 gulp-sass@2.3.2
+95 verbose lock gulp-sass@2.3.2 C:\Users\user\AppData\Roaming\npm-cache\0aa5b949-gulp-sass-2-3-2.lock
+96 silly lockFile 4bdaddd9-rg-gulp-sass-gulp-sass-2-3-2-tgz https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz
+97 verbose lock https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz C:\Users\user\AppData\Roaming\npm-cache\4bdaddd9-rg-gulp-sass-gulp-sass-2-3-2-tgz.lock
+98 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz',
+98 verbose addRemoteTarball   '82b7ab90fe902cdc34c04f180d92f2c34902dd52' ]
+99 info retry fetch attempt 1 at 11:54:35
+100 verbose fetch to= C:\Users\user\AppData\Local\Temp\npm-17832-CkOgsJ07\registry.npmjs.org\gulp-sass\-\gulp-sass-2.3.2.tgz
+101 http GET https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz
+102 http 200 https://registry.npmjs.org/gulp
+103 silly registry.get cb [ 200,
+103 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+103 silly registry.get     etag: '"1GX6PM6Z1BQXFV6CTU9D1IJHR"',
+103 silly registry.get     'content-type': 'application/json',
+103 silly registry.get     'content-encoding': 'gzip',
+103 silly registry.get     'cache-control': 'max-age=300',
+103 silly registry.get     'content-length': '18909',
+103 silly registry.get     'accept-ranges': 'bytes',
+103 silly registry.get     date: 'Sat, 10 Sep 2016 02:54:35 GMT',
+103 silly registry.get     via: '1.1 varnish',
+103 silly registry.get     age: '64',
+103 silly registry.get     connection: 'keep-alive',
+103 silly registry.get     'x-served-by': 'cache-itm7427-ITM',
+103 silly registry.get     'x-cache': 'HIT',
+103 silly registry.get     'x-cache-hits': '64',
+103 silly registry.get     'x-timer': 'S1473476075.552746,VS0,VE0',
+103 silly registry.get     vary: 'Accept-Encoding' } ]
+104 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+105 silly addNameRange versions [ 'gulp',
+105 silly addNameRange   [ '0.0.1',
+105 silly addNameRange     '0.0.2',
+105 silly addNameRange     '0.0.3',
+105 silly addNameRange     '0.0.4',
+105 silly addNameRange     '0.0.5',
+105 silly addNameRange     '0.0.7',
+105 silly addNameRange     '0.0.8',
+105 silly addNameRange     '0.0.9',
+105 silly addNameRange     '0.1.0',
+105 silly addNameRange     '0.2.0',
+105 silly addNameRange     '1.0.0',
+105 silly addNameRange     '1.1.0',
+105 silly addNameRange     '1.2.0',
+105 silly addNameRange     '1.2.1',
+105 silly addNameRange     '2.0.0',
+105 silly addNameRange     '2.0.1',
+105 silly addNameRange     '2.1.0',
+105 silly addNameRange     '2.2.0',
+105 silly addNameRange     '2.3.0',
+105 silly addNameRange     '2.4.0',
+105 silly addNameRange     '2.4.1',
+105 silly addNameRange     '2.6.0',
+105 silly addNameRange     '2.6.1',
+105 silly addNameRange     '2.7.0',
+105 silly addNameRange     '3.0.0',
+105 silly addNameRange     '3.1.1',
+105 silly addNameRange     '3.1.2',
+105 silly addNameRange     '3.1.3',
+105 silly addNameRange     '3.1.4',
+105 silly addNameRange     '3.2.0',
+105 silly addNameRange     '3.2.1',
+105 silly addNameRange     '3.2.2',
+105 silly addNameRange     '3.2.3',
+105 silly addNameRange     '3.2.4',
+105 silly addNameRange     '3.2.5',
+105 silly addNameRange     '3.3.0',
+105 silly addNameRange     '3.3.1',
+105 silly addNameRange     '3.3.2',
+105 silly addNameRange     '3.3.4',
+105 silly addNameRange     '3.4.0',
+105 silly addNameRange     '3.5.0',
+105 silly addNameRange     '3.5.1',
+105 silly addNameRange     '3.5.2',
+105 silly addNameRange     '3.5.5',
+105 silly addNameRange     '3.5.6',
+105 silly addNameRange     '3.6.0',
+105 silly addNameRange     '3.6.1',
+105 silly addNameRange     '3.6.2',
+105 silly addNameRange     '3.7.0',
+105 silly addNameRange     '3.8.0',
+105 silly addNameRange     '3.8.1',
+105 silly addNameRange     '3.8.2',
+105 silly addNameRange     '3.8.3',
+105 silly addNameRange     '3.8.4',
+105 silly addNameRange     '3.8.5',
+105 silly addNameRange     '3.8.6',
+105 silly addNameRange     '3.8.7',
+105 silly addNameRange     '3.8.8',
+105 silly addNameRange     '3.8.9',
+105 silly addNameRange     '3.8.10',
+105 silly addNameRange     '3.8.11',
+105 silly addNameRange     '3.9.0',
+105 silly addNameRange     '3.9.1' ] ]
+106 verbose addNamed [ 'gulp', '3.9.1' ]
+107 verbose addNamed [ '3.9.1', '3.9.1' ]
+108 silly lockFile d9f1ef79-gulp-3-9-1 gulp@3.9.1
+109 verbose lock gulp@3.9.1 C:\Users\user\AppData\Roaming\npm-cache\d9f1ef79-gulp-3-9-1.lock
+110 silly lockFile d9f1ef79-gulp-3-9-1 gulp@3.9.1
+111 silly lockFile d9f1ef79-gulp-3-9-1 gulp@3.9.1
+112 silly lockFile 72f4391e-gulp gulp@
+113 silly lockFile 72f4391e-gulp gulp@
+114 http 200 https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz
+115 silly lockFile 4bdaddd9-rg-gulp-sass-gulp-sass-2-3-2-tgz https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz
+116 silly lockFile 4bdaddd9-rg-gulp-sass-gulp-sass-2-3-2-tgz https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.3.2.tgz
+117 silly lockFile 0aa5b949-gulp-sass-2-3-2 gulp-sass@2.3.2
+118 silly lockFile 0aa5b949-gulp-sass-2-3-2 gulp-sass@2.3.2
+119 silly lockFile 59b5e58d-gulp-sass gulp-sass@
+120 silly lockFile 59b5e58d-gulp-sass gulp-sass@
+121 http 200 https://registry.npmjs.org/gulp-postcss
+122 silly registry.get cb [ 200,
+122 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+122 silly registry.get     etag: '"RS9AJSQKCZPLLH0NX6FOTKS7"',
+122 silly registry.get     'content-type': 'application/json',
+122 silly registry.get     'content-encoding': 'gzip',
+122 silly registry.get     'cache-control': 'max-age=300',
+122 silly registry.get     'content-length': '6754',
+122 silly registry.get     'accept-ranges': 'bytes',
+122 silly registry.get     date: 'Sat, 10 Sep 2016 02:54:35 GMT',
+122 silly registry.get     via: '1.1 varnish',
+122 silly registry.get     age: '0',
+122 silly registry.get     connection: 'keep-alive',
+122 silly registry.get     'x-served-by': 'cache-itm7420-ITM',
+122 silly registry.get     'x-cache': 'MISS',
+122 silly registry.get     'x-cache-hits': '0',
+122 silly registry.get     'x-timer': 'S1473476075.549773,VS0,VE165',
+122 silly registry.get     vary: 'Accept-Encoding' } ]
+123 silly addNameRange number 2 { name: 'gulp-postcss', range: '*', hasData: true }
+124 silly addNameRange versions [ 'gulp-postcss',
+124 silly addNameRange   [ '0.0.1',
+124 silly addNameRange     '0.0.2',
+124 silly addNameRange     '1.0.0',
+124 silly addNameRange     '1.0.1',
+124 silly addNameRange     '1.0.2',
+124 silly addNameRange     '2.0.0',
+124 silly addNameRange     '2.0.1',
+124 silly addNameRange     '3.0.0',
+124 silly addNameRange     '4.0.0',
+124 silly addNameRange     '4.0.1',
+124 silly addNameRange     '4.0.2',
+124 silly addNameRange     '4.0.3',
+124 silly addNameRange     '5.0.0',
+124 silly addNameRange     '5.0.1',
+124 silly addNameRange     '5.1.0',
+124 silly addNameRange     '5.1.1',
+124 silly addNameRange     '5.1.2',
+124 silly addNameRange     '5.1.3',
+124 silly addNameRange     '5.1.4',
+124 silly addNameRange     '5.1.5',
+124 silly addNameRange     '5.1.6',
+124 silly addNameRange     '5.1.7',
+124 silly addNameRange     '5.1.8',
+124 silly addNameRange     '5.1.9',
+124 silly addNameRange     '5.1.10',
+124 silly addNameRange     '6.0.0',
+124 silly addNameRange     '6.0.1',
+124 silly addNameRange     '6.1.0',
+124 silly addNameRange     '6.1.1',
+124 silly addNameRange     '6.2.0' ] ]
+125 verbose addNamed [ 'gulp-postcss', '6.2.0' ]
+126 verbose addNamed [ '6.2.0', '6.2.0' ]
+127 silly lockFile d635e2dd-gulp-postcss-6-2-0 gulp-postcss@6.2.0
+128 verbose lock gulp-postcss@6.2.0 C:\Users\user\AppData\Roaming\npm-cache\d635e2dd-gulp-postcss-6-2-0.lock
+129 silly lockFile 364736d7-p-postcss-gulp-postcss-6-2-0-tgz https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz
+130 verbose lock https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz C:\Users\user\AppData\Roaming\npm-cache\364736d7-p-postcss-gulp-postcss-6-2-0-tgz.lock
+131 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz',
+131 verbose addRemoteTarball   'be0b7c3ab25aaa9a6ddef3fc65edf52d2be99640' ]
+132 info retry fetch attempt 1 at 11:54:35
+133 verbose fetch to= C:\Users\user\AppData\Local\Temp\npm-17832-CkOgsJ07\registry.npmjs.org\gulp-postcss\-\gulp-postcss-6.2.0.tgz
+134 http GET https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz
+135 http 200 https://registry.npmjs.org/postcss-cssnext
+136 silly registry.get cb [ 200,
+136 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+136 silly registry.get     etag: '"9JYHDR1YYWMWOBFB1UK3E4T0N"',
+136 silly registry.get     'content-type': 'application/json',
+136 silly registry.get     'content-encoding': 'gzip',
+136 silly registry.get     'cache-control': 'max-age=300',
+136 silly registry.get     'content-length': '5679',
+136 silly registry.get     'accept-ranges': 'bytes',
+136 silly registry.get     date: 'Sat, 10 Sep 2016 02:54:36 GMT',
+136 silly registry.get     via: '1.1 varnish',
+136 silly registry.get     age: '0',
+136 silly registry.get     connection: 'keep-alive',
+136 silly registry.get     'x-served-by': 'cache-itm7426-ITM',
+136 silly registry.get     'x-cache': 'HIT',
+136 silly registry.get     'x-cache-hits': '1',
+136 silly registry.get     'x-timer': 'S1473476075.548636,VS0,VE764',
+136 silly registry.get     vary: 'Accept-Encoding' } ]
+137 silly addNameRange number 2 { name: 'postcss-cssnext', range: '*', hasData: true }
+138 silly addNameRange versions [ 'postcss-cssnext',
+138 silly addNameRange   [ '2.0.0',
+138 silly addNameRange     '2.0.1',
+138 silly addNameRange     '2.1.0',
+138 silly addNameRange     '2.2.0',
+138 silly addNameRange     '2.3.0',
+138 silly addNameRange     '2.4.0',
+138 silly addNameRange     '2.5.0',
+138 silly addNameRange     '2.5.1',
+138 silly addNameRange     '2.5.2',
+138 silly addNameRange     '2.6.0',
+138 silly addNameRange     '2.7.0',
+138 silly addNameRange     '2.8.0' ] ]
+139 verbose addNamed [ 'postcss-cssnext', '2.8.0' ]
+140 verbose addNamed [ '2.8.0', '2.8.0' ]
+141 silly lockFile 88c1aeba-postcss-cssnext-2-8-0 postcss-cssnext@2.8.0
+142 verbose lock postcss-cssnext@2.8.0 C:\Users\user\AppData\Roaming\npm-cache\88c1aeba-postcss-cssnext-2-8-0.lock
+143 silly lockFile 701ef92c-ssnext-postcss-cssnext-2-8-0-tgz https://registry.npmjs.org/postcss-cssnext/-/postcss-cssnext-2.8.0.tgz
+144 verbose lock https://registry.npmjs.org/postcss-cssnext/-/postcss-cssnext-2.8.0.tgz C:\Users\user\AppData\Roaming\npm-cache\701ef92c-ssnext-postcss-cssnext-2-8-0-tgz.lock
+145 verbose addRemoteTarball [ 'https://registry.npmjs.org/postcss-cssnext/-/postcss-cssnext-2.8.0.tgz',
+145 verbose addRemoteTarball   'fbaef792185967457812f66355d0c24707bb8cf3' ]
+146 info retry fetch attempt 1 at 11:54:36
+147 verbose fetch to= C:\Users\user\AppData\Local\Temp\npm-17832-CkOgsJ07\registry.npmjs.org\postcss-cssnext\-\postcss-cssnext-2.8.0.tgz
+148 http GET https://registry.npmjs.org/postcss-cssnext/-/postcss-cssnext-2.8.0.tgz
+149 http 200 https://registry.npmjs.org/postcss-cssnext/-/postcss-cssnext-2.8.0.tgz
+150 silly lockFile 701ef92c-ssnext-postcss-cssnext-2-8-0-tgz https://registry.npmjs.org/postcss-cssnext/-/postcss-cssnext-2.8.0.tgz
+151 silly lockFile 701ef92c-ssnext-postcss-cssnext-2-8-0-tgz https://registry.npmjs.org/postcss-cssnext/-/postcss-cssnext-2.8.0.tgz
+152 silly lockFile 88c1aeba-postcss-cssnext-2-8-0 postcss-cssnext@2.8.0
+153 silly lockFile 88c1aeba-postcss-cssnext-2-8-0 postcss-cssnext@2.8.0
+154 silly lockFile a1fa774a-postcss-cssnext postcss-cssnext@
+155 silly lockFile a1fa774a-postcss-cssnext postcss-cssnext@
+156 http 400 https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz
+157 error fetch failed https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz
+158 silly lockFile 364736d7-p-postcss-gulp-postcss-6-2-0-tgz https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz
+159 silly lockFile 364736d7-p-postcss-gulp-postcss-6-2-0-tgz https://registry.npmjs.org/gulp-postcss/-/gulp-postcss-6.2.0.tgz
+160 silly lockFile d635e2dd-gulp-postcss-6-2-0 gulp-postcss@6.2.0
+161 silly lockFile d635e2dd-gulp-postcss-6-2-0 gulp-postcss@6.2.0
+162 silly lockFile ec17020b-gulp-postcss gulp-postcss@
+163 silly lockFile ec17020b-gulp-postcss gulp-postcss@
+164 error Error: 400 Bad Request
+164 error     at WriteStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\fetch.js:58:12)
+164 error     at WriteStream.emit (events.js:117:20)
+164 error     at evalmachine.<anonymous>:1609:14
+164 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:102:5
+164 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+165 error If you need help, you may report this *entire* log,
+165 error including the npm and node versions, at:
+165 error     <http://github.com/npm/npm/issues>
+166 error System Windows_NT 6.2.9200
+167 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "gulp" "gulp-sass" "gulp-postcss" "postcss-cssnext"
+168 error cwd D:\Googleドライブ\github-sass
+169 error node -v v0.10.33
+170 error npm -v 1.4.28
+171 verbose exit [ 1, true ]
